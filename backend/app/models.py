@@ -31,3 +31,17 @@ class ATSReport(BaseModel):
     missing_keywords: List[str] = []
     repetition_flags: List[str] = []
     quant_gaps: List[str] = []
+
+class BulletPatch(BaseModel):
+    id: str
+    project_key: str
+    project_title: str
+    project_date_range: Optional[str] = ""
+    original: str
+    rewritten: str
+    accepted: Optional[bool] = None
+    edited_text: Optional[str] = None
+
+class CompileRequest(BaseModel):
+    run_id: str
+    patches: List[BulletPatch]

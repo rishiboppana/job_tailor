@@ -10,6 +10,8 @@ Constraints:
 - Do NOT invent metrics; keep existing metrics only.
 - Each bullet: 1 sentence, action verb first, include 1–2 keywords naturally.
 - Avoid repetition of starting verbs.
+- IMPORTANT: Wrap important keywords, tools, skills, and metrics in LaTeX bold: \\textbf{{keyword}}
+- Preserve any existing \\textbf{{}} formatting from original bullets.
 
 AllowedSkills: {allowed_skills}
 JDKeywords: {jd_keywords}

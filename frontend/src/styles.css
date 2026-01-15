@@ -119,3 +119,95 @@
     font-size: 13px;
   }
   
+  /* Resume Review Styles */
+  .resumeReview { margin-top: 20px; }
+  .projectGroup { margin-bottom: 24px; }
+  .projectTitle {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 12px;
+    color: #111;
+  }
+  .bulletCard {
+    background: white;
+    border: 1px solid #e6e6e6;
+    border-radius: 10px;
+    padding: 14px;
+    margin-bottom: 12px;
+  }
+  .bulletHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  .statusBadge {
+    padding: 4px 10px;
+    border-radius: 6px;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  .status-pending { background: #f0f0f0; color: #666; }
+  .status-accepted { background: #d4edda; color: #155724; }
+  .status-rejected { background: #f8d7da; color: #721c24; }
+  .status-edited { background: #d1ecf1; color: #0c5460; }
+  .bulletActions { display: flex; gap: 6px; }
+  .btnSmall {
+    padding: 6px 10px;
+    border: none;
+    border-radius: 6px;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  .btnAccept { background: #28a745; color: white; }
+  .btnReject { background: #dc3545; color: white; }
+  .btnEdit { background: #007bff; color: white; }
+  .btnSave { background: #111; color: white; }
+  .btnCancel { background: #f2f2f2; color: #111; border: 1px solid #e6e6e6; }
+  .btnSmall:disabled { opacity: 0.5; cursor: not-allowed; }
+  .bulletContent { margin-top: 8px; }
+  .bulletText {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #111;
+  }
+  .originalLabel, .editedLabel {
+    font-size: 11px;
+    color: #666;
+    margin-top: 4px;
+    font-style: italic;
+  }
+  .editTextarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #007bff;
+    border-radius: 6px;
+    font-size: 14px;
+    font-family: inherit;
+    resize: vertical;
+    min-height: 80px;
+  }
+  .comparison {
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid #eee;
+  }
+  .comparisonToggle {
+    font-size: 12px;
+    color: #666;
+    cursor: pointer;
+    user-select: none;
+  }
+  .comparisonToggle:hover { color: #111; }
+  .originalText {
+    margin-top: 8px;
+    padding: 8px;
+    background: #f8f9fa;
+    border-radius: 6px;
+    font-size: 13px;
+    color: #666;
+    font-style: italic;
+  }
+  
